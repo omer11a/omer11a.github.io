@@ -127,6 +127,12 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 .publications ol.bibliography li div.abstract.hidden { border: dashed 1px var(--global-bg-color); }
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
+.publications ul.talks-list { list-style: none; padding: 0; margin-top: 0; }
+.publications ul.talks-list li { margin-bottom: 1rem; }
+.publications ul.talks-list li span { display: inline; }
+.publications ul.talks-list li .talk-date { display: inline-block; margin-right: 0.35rem; min-width: 10.5ch; }
+.publications ul.talks-list li .talk-venue { font-weight: bold; color: var(--global-theme-color); }
+
 code { color: var(--global-theme-color); }
 /**/
 html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
